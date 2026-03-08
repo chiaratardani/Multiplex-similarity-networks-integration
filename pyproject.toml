@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "multiplex_similarity_networks_integration"
+version = "0.1.0"
+authors = [{name = "Chiara Tardani", email = "tardani.2085445@studenti.uniroma1.it"},]
+description = "Integration of multiplex similarity networks with different aggregation methods"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent",]
+license = "MIT"
+dependencies = ["numpy", "scipy", "matplotlib",]
+[project.urls]
+Homepage = "https://github.com/chiaratardani/Multiplex-similarity-networks-integration"
+
