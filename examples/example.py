@@ -1,5 +1,5 @@
 import numpy as np
-from multiplex_similarity_networks_integration import *
+from multiplex_similarity_networks_integration.aggregation import aggregate
 
 '''Now we generate, to show how to use the code, three similarity matrices
 (completely positive matrices) at random, with dimensions 3 x 3.'''
