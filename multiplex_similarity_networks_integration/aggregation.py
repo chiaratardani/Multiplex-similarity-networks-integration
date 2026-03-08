@@ -2,7 +2,15 @@ import numpy as np
 from scipy import linalg
 from abc import ABC, abstractmethod
 from typing import List, Tuple, Optional, Dict, Any
-from utils import *
+from .utils import (
+    eval_weights,
+    frobenius_weights,
+    riem_weights,
+    eigenval_perturb,
+    modif_mod,
+    square_root_matrix,
+    normalize_simmat
+)
 
 class SimilarityMatrixAggregator(ABC):
     """Abstract base class for our aggregation (of similarity matrices) methods."""
